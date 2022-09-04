@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "MLeaksFinder"
-  s.version          = "1.0.0"
+  s.version          = "1.0.1"
   s.summary          = "Find memory leaks in your iOS app at develop time."
 
 # This description is used to generate tags and improve search results.
@@ -38,5 +38,5 @@ Pod::Spec.new do |s|
 
   s.public_header_files = 'MLeaksFinder/MLeaksFinder.h', 'MLeaksFinder/NSObject+MemoryLeak.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'FBRetainCycleDetector', :git => 'https://github.com/Sandy-OIJ/FBRetainCycleDetector.git'
+  s.dependency 'FBRetainCycleDetector', 
 end
